@@ -14,7 +14,7 @@ const MoviesList = ({ watchlist, setWatchlist }) => {
           key={movie.id}
           className='bg-gray-700 p-4 rounded shadow-md text-center'
         >
-          <img src={`src/assets/imgMovies/${movie.img}.jpg`} />
+          <img src={`/assets/imgMovies/${movie.img}.jpg`} />
           <h3 className='text-lg font-semibold'>{movie.name}</h3>
           <button
             className='bg-green-500 p-2'
